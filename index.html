@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Explorando la Época Clásica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: rgb(222, 241, 217);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos de encabezados */
+        h1 {
+            color: rgb(92, 105, 223);
+            margin-top: 20px;
+        }
+
+        #filosofia, #literatura, #arte, #historia, #introduccion {
+            color: rgb(92, 105, 223);
+            font-family: cursive;
+        }
+
+        /* Estilos de secciones */
+        .texto-seccion {
+            color: #333;
+            font-family: 'Georgia', serif;
+        }
+
+        .col-md-6 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Estilos de tablas */
+        #tabla {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Estilos del autor */
+        #autor {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .author-img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Ajustes del footer */
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <header class="mb-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+                <a class="navbar-brand" href="#">Época Clásica</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#introduccion">Introducción</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#literatura">Literatura</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#arte">Arte</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#filosofia">Filosofía</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="text-center text-primary mt-4">Explorando la Época Clásica</h1>
+        </header>
+
+        <section class="row">
+            <article class="col-md-6 mb-4">
+                <h2 id="introduccion" class="text-info">Introducción</h2>
+                <p class="texto-seccion">Bienvenidos a nuestro sitio web dedicado a la fascinante Época Clásica. Aquí exploraremos la historia, la literatura, el arte y la filosofía de una de las eras más influyentes de la civilización occidental.</p>
+            </article>
+            <article class="col-md-6 mb-4">
+                <h2 id="historia" class="text-info">Historia</h2>
+                <p class="texto-seccion">La Época Clásica abarca desde el auge de la civilización griega hasta la caída del Imperio Romano. Esta era fue testigo de grandes avances en la política, la ciencia y la cultura.</p>
+            </article>
+            <article class="col-md-6 mb-4">
+                <h2 id="literatura" class="text-info">Literatura</h2>
+                <ul>
+                    <li>La Ilíada y La Odisea de Homero</li>
+                    <li>Las tragedias de Sófocles</li>
+                    <li>Las comedias de Aristófanes</li>
+                    <li>Las obras de Platón y Aristóteles</li>
+                </ul>
+            </article>
+            <article class="col-md-6 mb-4">
+                <h2 id="arte" class="text-info">Arte</h2>
+                <ul>
+                    <li>Escultura griega clásica</li>
+                    <li>Arquitectura del Partenón</li>
+                    <li>Arte romano: frescos y mosaicos</li>
+                </ul>
+            </article>
+            <article class="col-md-6 mb-4">
+                <h2 id="filosofia" class="text-info">Filosofía</h2>
+                <ul>
+                    <li>Los diálogos de Platón</li>
+                    <li>La ética de Aristóteles</li>
+                    <li>El estoicismo de Epicteto</li>
+                    <li>El epicureísmo de Epicuro</li>
+                </ul>
+            </article>
+            <article class="col-md-12 mb-4">
+                <h2 id="tabla" class="text-info">Tabla de Información Clásica</h2>
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Contribución</th>
+                            <th>Periodo</th>
+                            <th>Enlace Externo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Homero</td>
+                            <td>Poeta épico</td>
+                            <td>Siglo VIII a.C.</td>
+                            <td><a href="https://es.wikipedia.org/wiki/Homero" target="_blank">Wikipedia</a></td>
+                        </tr>
+                        <tr>
+                            <td>Sócrates</td>
+                            <td>Filósofo</td>
+                            <td>470-399 a.C.</td>
+                            <td><a href="https://es.wikipedia.org/wiki/Sócrates" target="_blank">Wikipedia</a></td>
+                        </tr>
+                        <tr>
+                            <td>Platón</td>
+                            <td>Filósofo</td>
+                            <td>427-347 a.C.</td>
+                            <td><a href="https://es.wikipedia.org/wiki/Platón" target="_blank">Wikipedia</a></td>
+                        </tr>
+                        <tr>
+                            <td>Aristóteles</td>
+                            <td>Filósofo y científico</td>
+                            <td>384-322 a.C.</td>
+                            <td><a href="https://es.wikipedia.org/wiki/Aristóteles" target="_blank">Wikipedia</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <aside class="mt-4">
+            <h3 id="autor" class="text-center">Autor</h3>
+            <img src="./foto.jpeg" alt="Foto del autor" class="img-fluid rounded mx-auto d-block author-img">
+            <p class="text-center">Este sitio fue creado por Santiago Tamayo, un apasionado de la historia y la cultura clásica. Puedes contactarme en <a href="mailto:santitu2008gt@gmail.com">santitu2008gt@gmail.com</a> o a través de mi institución, <a href="https://www.skolmi.com" target="_blank">Institución Educativa Skolmi</a>.</p>
+        </aside>
+
+        <footer class="text-center p-4 bg-dark text-white rounded mt-4">
+            <p>Nombre: Santiago Tamayo Rodríguez</p>
+            <p>Contacto: <a href="mailto:santitu2008gt@gmail.com" class="text-white">santitu2008gt@gmail.com</a></p>
+            <p>Institución: <a href="https://www.skolmi.com" target="_blank" class="text-white">Institución Educativa Skolmi</a></p>
+            <p>Todos los derechos reservados - 2024</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
